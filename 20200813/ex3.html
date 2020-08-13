@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <head>
+    <html lang="ko" dir="ltr">
+    <meta charset="utf-8">
+    <title>Events: blur</title>
+    <script src='jquery-1.11.1.min.js'></script>
+  </head>
+  <body>
+    <h2>Click in and oput of these fields</h2>
+    <input id='first'> <input> <input> <input>
+    <script>
+
+    // focus는 해당 페이지 열었을때 커서가 해당 위치로 가있다..?
+      $('#first').focus()
+      $('input').focus(function() { $(this).css('background', '#ff0')})
+      $('input').blur(function() { $(this).css('background', '#aaa')})
+      </script>
+  </body>
+</html>
