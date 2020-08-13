@@ -1,0 +1,23 @@
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('everdevelHost', '김태영', 'mm281118', '010-1234-5678', 'everdevel@everdevel.com', '1928-11-18', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, birthDay, regTime)
+VALUES('dreamLights', '김태헌', 'djflkajl4783', '010-1234-5678', '1940-11-18', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('tigger', '이지형', 'dlwlgud85', '010-1234-5678', 'tigger@everdevel.com', '1985-11-18', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('nelly', '전윤동', 'wjsdbsehd83', '010-1234-5678', 'nelly@everdevel.com', '1983-04-27', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('cooper', '노진우', 'shwlsdn87', '010-1234-5678', 'cooper@everdevel.com', '1987-02-01', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('linu', '백창인', 'qorckddls81', '010-1234-5678', 'linu@everdevel.com', '1981-12-25', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('hanje', '한정은', 'gkswjddms88', '010-1234-5678', 'hanje@everdevel.com', '1988-04-08', 'w', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('stella', '이정미', 'dlwjdal84', '010-1234-5678', 'stella@everdevel.com', '1984-06-26', 'w', now());

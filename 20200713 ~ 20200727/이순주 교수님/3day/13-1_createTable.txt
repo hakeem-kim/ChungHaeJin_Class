@@ -1,0 +1,7 @@
+create table prodReview (
+prodReviewID int unsigned auto_increment comment '리뷰의 고유번호',
+myMemberID int unsigned comment '리뷰를 작성한 회원번호',
+content tinytext comment '리뷰 내용',
+regTime datetime not null comment '회원가입 시간',
+primary key(prodReviewID))
+charset=utf8 comment='상품 리뷰';

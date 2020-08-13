@@ -1,0 +1,8 @@
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('haeyun', '이지형', 'dlwlgud85', '010-1234-5678', 'tigger@everdevel.com', '1985-11-18', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('nelly', '전윤동', 'wjsdbsehd83', '010-1234-5678', 'nelly@everdevel.com', '1983-04-27', 'm', now());
+
+INSERT INTO myMember(userId, name, password, phone, email, birthDay, gender, regTime)
+VALUES('cooper', '노진우', 'shwlsdn87', '010-1234-5678', 'cooper@everdevel.com', '1987-02-01', 'm', now());
